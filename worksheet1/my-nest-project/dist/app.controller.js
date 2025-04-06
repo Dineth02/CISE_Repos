@@ -19,7 +19,7 @@ let AppController = class AppController {
         this.appService = appService;
     }
     getHello() {
-        return this.appService.getHello() + ' My name is John!';
+        return this.appService.getHello() + ' My name is John! <--changes made';
     }
 };
 exports.AppController = AppController;
